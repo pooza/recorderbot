@@ -1,0 +1,9 @@
+package:
+  version: 1.0.0
+  url: https://github.com/pooza/recorderbot
+  authors:
+    - Tatsuya Koishi
+  email:
+    - tkoishi@b-shock.co.jp
+  license: MIT
+sleep: 5
