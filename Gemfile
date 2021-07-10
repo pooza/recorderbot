@@ -3,6 +3,7 @@ ruby '~>3.0.0'
 gem 'ginseng-core', github: 'pooza/ginseng-core'
 
 group :development do
+  gem 'ricecream'
   gem 'rubocop'
   gem 'rubocop-performance'
   gem 'rubocop-rake'
