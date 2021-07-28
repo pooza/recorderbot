@@ -13,8 +13,8 @@ module Recorderbot
         [record['id'].to_s.adler32.to_s, record]
       end.to_h
     rescue => e
-      pp e
-      return {}
+      warn e.message
+      exit 1
     end
 
     def summary(queue)
